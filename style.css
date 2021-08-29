@@ -1,0 +1,55 @@
+h1{
+    color:rgba(245, 10, 88, 0.514);
+    font-family: Forte;
+}
+h2{
+    color:rgb(253, 0, 0);
+    font-family: Segoe Print;
+}
+img{
+    border:solid;
+}
+p{
+    font-family: Segoe Print;
+}
+a{
+    font-family: Segoe Print;
+}
+h4{
+    color:rgb(10, 84, 245);
+    font-family: Segoe Print;
+}
+/*
+*{
+    border: solid;
+}
+*/
+h1{
+    text-align: center;
+}
+
+.header {
+    background-color: rgba(0, 247, 255, 0.384);
+    display: flex;
+    justify-content: space-between;  
+}
+
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+h2, p {
+    text-align: center;
+}
